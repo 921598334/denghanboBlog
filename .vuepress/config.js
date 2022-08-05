@@ -1,13 +1,14 @@
 module.exports = {
-  "title": "",
-  "description": "",
+  "title": "BobO",
+  "description": "BobO的个人博客",
   "dest": "public",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        //网页title上的头像
+        "href": "/avatar2.png"
       }
     ],
     [
@@ -22,35 +23,36 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
+      // {
+      //   "text": "其他说明",
+      //   "icon": "reco-message",
+      //   "items": [
+      //     {
+      //       "text": "其他说明-reco",
+      //       "link": "/docs/theme-reco/"
+      //     }
+      //   ]
+      // },
       {
-        "text": "Docs",
+        "text": "关于我",
         "icon": "reco-message",
-        "items": [
-          {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
-      },
-      {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
-            "icon": "reco-github"
-          }
-        ]
+        // "items": [
+        //   {
+        //     "text": "GitHub",
+        //     "link": "https://github.com/recoluan",
+        //     "icon": "reco-github"
+        //   }
+        // ]
+        "link": "/us/"
       }
     ],
     "sidebar": {
@@ -58,42 +60,47 @@ module.exports = {
         "",
         "theme",
         "plugin",
-        "api"
+        "api",
+        "api copy"
+
       ]
     },
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "文章类别"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
       {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
+        "title": "智能结构与控制实验室",
+        "desc": "老东家.",
         "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
+        "avatar": "/avatar2.png",
+        "link": "https://www.ssclab.cn"
       },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
+      // {
+      //   "title": "vuepress-theme-reco",
+      //   "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+      //   "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      //   "link": "https://vuepress-theme-reco.recoluan.com"
+      // }
     ],
-    "logo": "/logo.png",
+    //导航栏上的头像
+    "logo": "/avatar2.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "",
-    "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    "author": "BoBO",
+    //正文中的头像
+    "authorAvatar": "/avatar1.png",
+    "record": "BobO的个人博客",
+    "startYear": "2022"
   },
   "markdown": {
     "lineNumbers": true

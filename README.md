@@ -1,10 +1,10 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: BobO的个人博客
+tagline: 比宇宙更远的，不是南极，而是心中一直不敢踏出的那一步，而那一步，比宇宙还要遥远.
 # heroImage: /hero.png
 # heroImageStyle: {
-#   maxWidth: '600px',
+#   maxWidth: '600px', 
 #   width: '100%',
 #   display: block,
 #   margin: '9rem auto 2rem',
@@ -12,7 +12,7 @@ tagline: A simple and beautiful vuepress blog theme.
 #   borderRadius: '1rem',
 # }
 bgImageStyle: {
-  height: '450px'
+  height: '600px'
 }
 isShowTitleInHome: false
 actionText: Guide
